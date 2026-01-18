@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniket Karkhelikar - AI Architect</title>
+    <meta name="description" content="Founder & AI Architect. Building Distributed Agentic Systems.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="kbd-indicator" class="kbd-indicator"></div>
+    
+    <nav id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-left">
+                <a href="#home" class="nav-logo" aria-label="Home" data-decode="Aniket Karkhelikar">Aniket Karkhelikar</a>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <span id="theme-icon">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </span>
+                </button>
+            </div>
+            <div class="nav-right">
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#work">Work</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                    <span style="opacity: 0.3">|</span>
+                    <a href="#" onclick="toggleCommandPalette(); return false;" class="nav-secondary">[⌘K]</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content">
+    <section id="home" class="hero full-screen-section">
+        <div class="container">
+            <div class="hero-content">
+                <p class="sanskrit-header">॥ जय जय रघुवीर समर्थ ॥</p>
+                
+                <h1 class="hero-greeting">Hi!</h1>
+                <div class="hero-spacer"></div>
+                <p class="hero-intro">I'm Aniket. I bridge the gap between abstract AI research and production reality.</p>
+                <p class="hero-description">I am focused on <strong>Agentic AI</strong> and <strong>Distributed NLP</strong>. I don't just write code; I build systems. If a vision compels me, I do whatever it takes—from infrastructure to algorithms—to deploy it and make it happen.</p>
+                
+                <div class="quote-box" id="random-quote">
+                    <p class="quote-text"></p>
+                    <p class="quote-author"></p>
+                </div>
+
+                <div class="quick-links">
+                    <a href="https://github.com/aniketkarkhelikar" target="_blank" class="btn btn-primary">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                        GitHub
+                    </a>
+                    <a href="#work" class="btn btn-secondary">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                        Projects
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        Contact
+                    </a>
+                </div>
+                
+                <p style="font-size: 0.8rem; opacity: 0.5; margin-top: 1.5rem; font-family: var(--font-mono);">
+                    Press <kbd style="border: 1px solid var(--border-color); padding: 2px 6px; border-radius: 4px;">⌘ K</kbd> to enter terminal mode
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section section-white full-screen-section">
+        <div class="container">
+            <h2 class="section-title" data-hex="0x08" data-subtitle="Vision & Execution.">About</h2>
+            <div class="about-content">
+                <p class="about-paragraph">I operate at the intersection of <strong>Product Vision</strong> and <strong>Deep Tech</strong>. While I specialize in building distributed RAG pipelines and Agentic AI systems, my core skill is execution. I don't just optimize algorithms; I build the infrastructure, manage the deployment, and solve the messy problems required to ship a product.</p>
+                <p class="about-paragraph">Currently, I am the Founder & Architect at <strong>ArogyaAI</strong>, building clinical intelligence systems that scale. I'm selective about my energy—focusing only on projects with a strong "why" and a clear path to impact.</p>
+                
+                <div class="about-details">
+                    <div class="detail-group">
+                        <span class="detail-label">Focus</span>
+                        <span class="detail-item">Agentic AI & NLP</span>
+                        <span class="detail-item">Distributed Systems (Ray)</span>
+                        <span class="detail-item">Product Architecture</span>
+                    </div>
+
+                    <div class="detail-group-separator"></div>
+
+                    <div class="detail-group">
+                        <span class="detail-label">Status</span>
+                        <span class="detail-item">Shortlisted: NCIIPC AI Grand Challenge <span class="status-fail">(didn't get past stage 1)</span></span>
+                        <span class="detail-item">Student @ VIT Bhopal</span>
+                    </div>
+                    <div class="detail-group">
+                        <span class="detail-label">Currently Learning</span>
+                        <span class="detail-item">GPT-2 Implementation (Zero to Hero)</span>
+                        <span class="detail-item detail-note">Targeting completion by April, culminating in training a 124M parameter model from scratch.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stack" class="section full-screen-section">
+        <div class="container">
+            <h2 class="section-title" data-hex="0x0C" data-subtitle="Infrastructure & Tools.">Tech Stack</h2>
+            
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                    <span class="terminal-title">aniket@production:~/stack</span>
+                </div>
+                <div class="terminal-body">
+                    <div class="cmd-line">
+                        <span class="prompt">➜</span> <span class="cmd">cat capabilities.json</span>
+                    </div>
+                    
+                    <div class="terminal-grid">
+                        <div class="term-col">
+                            <span class="term-head">Infrastructure</span>
+                            <span class="term-item">Docker</span>
+                            <span class="term-item">ZeroTier</span>
+                            <span class="term-item">Linux</span>
+                            <span class="term-item">Git</span>
+                            <span class="term-item">Twingate</span>
+                            <span class="term-item">....</span>
+                        </div>
+
+                        <div class="term-col">
+                            <span class="term-head">Languages</span>
+                            <span class="term-item">Python (CS50P)</span>
+                            <span class="term-item">C</span>
+                            <span class="term-item">Bash</span>
+                            <span class="term-item">JavaScript </span>
+                            <span class="term-item">C++</span>
+                            <span class="term-item">....</span>
+                        </div>
+
+                        <div class="term-col">
+                            <span class="term-head">AI / ML</span>
+                            <span class="term-item">PyTorch</span>
+                            <span class="term-item">Transformers</span>
+                            <span class="term-item">Ray</span>
+                            <span class="term-item">LangChain</span>
+                            <span class="term-item">Hugging Face</span>
+                            <span class="term-item">llamaindex</span>
+                            <span class="term-item">....</span>
+                        </div>
+
+                        <div class="term-col">
+                            <span class="term-head">Data Science</span>
+                            <span class="term-item">NumPy</span>
+                            <span class="term-item">Pandas</span>
+                            <span class="term-item">Matplotlib</span>
+                            <span class="term-item">Scikit-learn</span>
+                            <span class="term-item">....</span>
+                        </div>
+
+                        <div class="term-col">
+                            <span class="term-head">RAG Stack</span>
+                            <span class="term-item">BM25</span>
+                            <span class="term-item">Semantic Search</span>
+                            <span class="term-item">Vector DBs (Qdrant)</span>
+                            <span class="term-item">....</span> 
+                        </div>
+                        
+                        <div class="term-col">
+                            <span class="term-head">Softwares</span>
+                            <span class="term-item">Figma</span>
+                            <span class="term-item">VS Code</span>
+                            <span class="term-item">....</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="section work-section full-screen-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-hex="0x10" data-subtitle="Building the Future.">Selected Work</h2>
+            </div>
+            <div id="projects-container"></div>
+        </div>
+    </section>
+
+    <section id="contact" class="section section-white full-screen-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-hex="0x14" data-subtitle="Let's Build.">Contact</h2>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="bento-card action-card" onclick="copyToClipboard('aniket.24bai10120@vitbhopal.ac.in', this)">
+                    <div class="card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-label">Email</span>
+                        <span class="card-value">aniket.24bai10120@vitbhopal.ac.in</span>
+                    </div>
+                    <div class="card-arrow">
+                        <span class="copy-text">Copy</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    </div>
+                </div>
+            
+                <a href="https://in.linkedin.com/in/aniket-karkhelikar-68651322a" target="_blank" class="bento-card action-card">
+                    <div class="card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-label">LinkedIn</span>
+                        <span class="card-value">in/aniket-karkhelikar</span>
+                    </div>
+                    <div class="card-arrow">→</div>
+                </a>            
+        </div>
+    </section>
+
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div style="margin-bottom: 1.5rem; padding: 1rem; background: var(--hover-bg); border-radius: 4px;">
+                <p style="font-size: 1rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 500;">
+                    ऐसीं हें विचाराचीं कामें । उगेंच भ्रमों नये भ्रमें ।<br>जगदेश्वरें अनुक्रमें । सकळ केलें ॥
+                </p>
+                <p style="font-size: 0.8rem; opacity: 0.7;">— समर्थ रामदास स्वामी (दासबोध दशक २० समास १०)</p>
+            </div>
+
+            <p>© 2026 Aniket Karkhelikar</p>
+            <p class="footer-tagline"> समर्थाचिया सेवका वक्र पाहे । असा सर्व भूमंडळी कोण आहे ॥ जयाची लिला वर्णिती लोक तीन्ही । नुपेक्षी कदा राम दासाभिमानी ॥</p>
+            
+            <div class="footer-colophon">
+                <span class="colophon-item" id="footer-timestamp"></span>
+                <span class="colophon-separator">·</span>
+                <span class="colophon-item" id="footer-metrics"></span>
+                <span class="colophon-separator">·</span>
+                <span class="colophon-item" style="opacity: 0.4; font-size: 0.8rem;">[⌘K] command palette</span>
+            </div>
+        </div>
+    </footer>
+
+    <div id="command-palette" class="command-palette" style="display: none;">
+        <div class="command-palette-content">
+            <input type="text" id="command-input" placeholder="user@Aniket-ai:~$ _" autocomplete="off">
+            <div id="command-output"></div>
+        </div>
+    </div>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>
